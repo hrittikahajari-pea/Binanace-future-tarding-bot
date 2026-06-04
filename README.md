@@ -1,5 +1,12 @@
 # Binance Futures Testnet Trading Bot
 
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![Binance](https://img.shields.io/badge/Binance-Futures_Testnet-yellow)
+![CLI](https://img.shields.io/badge/Interface-CLI-green)
+![Tests](https://img.shields.io/badge/Tests-4_Passing-brightgreen)
+![Status](https://img.shields.io/badge/Assignment-Completed-success)
+![License](https://img.shields.io/badge/License-MIT-blue)
+
 A simple Python 3 CLI assignment project for placing Binance USD-M Futures Testnet
 orders. It supports `MARKET` and `LIMIT` orders with `BUY` and `SELL` sides.
 
