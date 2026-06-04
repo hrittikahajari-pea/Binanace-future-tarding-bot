@@ -96,6 +96,13 @@ logs/trading_bot.log
 The log includes API requests, successful responses, order placement events, and
 errors. Sensitive fields such as API keys and signatures are redacted if present.
 
+## Order Execution Logs
+Sample order execution logs are available in:
+- submission_logs/market_order_log.txt
+- submission_logs/limit_order_log.txt
+
+###Disclaimer: The Futures Testnet account had a wallet balance of 0 USDT during testing. Order requests successfully reached Binance Futures Testnet, and the resulting APIError -2019 ("Margin is insufficient") was correctly captured and logged by the application.
+
 ## Assumptions
 
 - This project is for Binance Futures Testnet only.
