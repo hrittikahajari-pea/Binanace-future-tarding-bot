@@ -63,6 +63,8 @@ python testing.py
 
 ## Run Examples
 
+### Argument Mode
+
 Place a MARKET buy order:
 
 ```bash
@@ -74,6 +76,30 @@ Place a LIMIT sell order:
 ```bash
 python cli.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.001 --price 70000
 ```
+
+### Interactive Mode
+
+Run the CLI without arguments to use the enhanced prompt flow:
+
+```bash
+python cli.py
+```
+
+The app will ask for:
+
+- symbol
+- side: `BUY` or `SELL`
+- order type: `MARKET` or `LIMIT`
+- quantity
+- price, only for `LIMIT`
+
+Before submitting, it shows an order request summary and asks:
+
+```text
+Submit order? (y/n)
+```
+
+Answer `n` to cancel cleanly without making a Binance API call.
 
 ## CLI Inputs
 
