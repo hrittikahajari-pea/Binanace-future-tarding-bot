@@ -1,0 +1,11 @@
+MARKET ORDER LOG
+
+Command:
+python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.001
+
+Result:
+Order request reached Binance Futures Testnet.
+Binance returned: APIError(code=-2019): Margin is insufficient.
+
+Relevant log:
+[Paste only the MARKET lines: Placing futures order + POST /order + error]
