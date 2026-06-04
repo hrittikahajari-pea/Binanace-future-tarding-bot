@@ -101,7 +101,7 @@ Sample order execution logs are available in:
 - submission_logs/market_order_log.txt
 - submission_logs/limit_order_log.txt
 
-###Disclaimer: The Futures Testnet account had a wallet balance of 0 USDT during testing. Order requests successfully reached Binance Futures Testnet, and the resulting APIError -2019 ("Margin is insufficient") was correctly captured and logged by the application.
+### Disclaimer: The Futures Testnet account had a wallet balance of 0 USDT during testing. Order requests successfully reached Binance Futures Testnet, and the resulting APIError -2019 ("Margin is insufficient") was correctly captured and logged by the application.
 
 ## Assumptions
 
