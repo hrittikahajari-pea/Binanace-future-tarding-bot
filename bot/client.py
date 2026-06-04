@@ -93,6 +93,7 @@ class SafeFuturesClient(Client):
 def create_futures_testnet_client(api_key: str, api_secret: str) -> SafeFuturesClient:
     """Create a Binance Futures Testnet client and synchronize its timestamp."""
     client = SafeFuturesClient(api_key, api_secret, testnet=True)
+
     client.sync_futures_time()
     return client
 
